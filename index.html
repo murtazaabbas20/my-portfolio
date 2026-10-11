@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo"><a href="">MA</a></div>
+    <nav class="navbar">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menubtn" id="menuBtn" aria-label="Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+  <section class="hero" id="home">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col ps-5 ">
+          <h2 class="display-3" id="typing-text">Murtaza Abbas</h2>
+          <p>
+            🚀 Hi, I'm a Front-End Developer passionate about turning creative
+            designs into dynamic web realities. My core toolkit centers around
+            crafting structured HTML5, styling clean CSS3, and building fast,
+            responsive layouts with Bootstrap. Using JavaScript, I bring these
+            interfaces to life by adding interactive features, animations, and
+            smart functionality.
+          </p>
+          <button class="btn btn-info hire-btn" type="submit">Hire Me</button>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+          <img src="murtaza.png" class="rounded d-block" alt="Murtaza">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="service" id="services">
+    <h1 class="display-4 heading reveal">Our Services</h1>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col ">
+          <div class="card card-1">
+            <div class="card-body">
+              <h2 class="card-title">HTML</h2>
+              <p class="card-text txt-1">I build clean and well-structured HTML5 layouts for modern websites.
+                I focus on semantic structure and a solid foundation for every project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-1">
+            <div class="card-body">
+              <h2 class="card-title">CSS</h2>
+              <p class="card-text txt-1">I create clean and attractive designs using modern CSS techniques.
+                I make layouts responsive and visually consistent across different screen sizes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-1">
+            <div class="card-body">
+              <h2 class="card-title">BootStrap</h2>
+              <p class="card-text txt-1">I use Bootstrap to build responsive and mobile-friendly website layouts.
+                I work with its grid system, components, and utilities to create efficient designs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-1">
+            <div class="card-body">
+              <h2 class="card-title">Javascript</h2>
+              <p class="card-text txt-1">I use JavaScript to make websites interactive and dynamic.
+                I add useful functionality, animations, and interactive features to improve user experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Projects-->
+  <section class="project" id="project">
+    <div class="container">
+      <h1 class="display-4 heading">Our Projects</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card card-2">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&auto=format&fit=crop&q=60"
+              class="card-img-top" alt="Coffee Website">
+            <div class="card-body">
+              <h5 class="card-title display-6 heading-2">Coffee Website</h5>
+              <p class="card-text txt-2">A modern coffee website with a clean and attractive design.
+                It showcases coffee products, services, and a welcoming atmosphere.
+                The layout is designed to be simple, responsive, and user-friendly.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-2">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=60"
+              class="card-img-top" alt="Gym Website">
+            <div class="card-body">
+              <h5 class="card-title display-6 heading-2">Gym Website</h5>
+              <p class="card-text txt-2">A modern and responsive gym website designed for fitness enthusiasts.<br>
+                It showcases workout programs,gym services,and membership options.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-2">
+            <img
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fHww"
+              class="card-img-top" alt="Calculator">
+            <div class="card-body">
+              <h5 class="card-title display-6 heading-2">Calculator</h5>
+              <p class="card-text txt-2">A simple and interactive calculator designed for everyday calculations.
+                It provides basic mathematical operations through an easy interface The project is built using HTML,
+                CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-2">
+            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=60"
+              class="card-img-top" alt="To-Do App">
+            <div class="card-body">
+              <h5 class="card-title display-6 heading-2">To-Do App</h5>
+              <p class="card-text txt-2">A simple and useful To-Do application for managing daily tasks.
+                Users can add, organize, and keep track of their important tasks.
+                The project focuses on a clean interface and easy user experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact-->
+  <section class="contact" id="contacts">
+    <h3 class="display-3 heading-3">Contact Me</h3>
+    <div class="container">
+      <form>
+        <div class="mb-3 form-1">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="">
+        </div>
+        <div class="mb-3 form-1">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 form-1">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary button-1">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer-1">
+    <div class="card">
+      <div class="card-body">
+        <figure>
+          <blockquote class="blockquote">
+            <p>Thanks for visiting my portfolio.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Murtaza Abbas-Front-end Developer
+          </figcaption>
+        </figure>
+        <p>@ 2026 Murtaza Abbas. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
